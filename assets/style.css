@@ -96,3 +96,8 @@ footer{background:var(--charc);color:#C6CBD1;padding:50px 0 24px}
 .footlink{color:#8b909a}
 .related-text{max-width:760px;color:var(--gray);font-size:15px;line-height:1.8}
 .blog-byline{color:var(--gray);font-size:13.5px}
+.hero-img{width:100%;height:auto;border-radius:20px;display:block;object-fit:cover}
+.blogheroimg{width:100%;height:auto;border-radius:16px;display:block;margin:24px 0}
+.socialrow{display:flex;flex-wrap:wrap;gap:14px;padding:22px 0;border-top:1px solid #3d4149;margin-top:10px}
+.sociallink{color:#C6CBD1;text-decoration:none;font-size:13px;font-weight:600;background:#363a41;padding:7px 14px;border-radius:20px}
+.sociallink:hover{color:#fff;background:var(--mint-d)}
