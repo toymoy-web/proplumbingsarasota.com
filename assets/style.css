@@ -124,3 +124,5 @@ footer{background:var(--charc);color:#C6CBD1;padding:50px 0 24px}
 .socialrow{display:flex;flex-wrap:wrap;gap:14px;padding:22px 0;border-top:1px solid #3d4149;margin-top:10px}
 .sociallink{color:#C6CBD1;text-decoration:none;font-size:13px;font-weight:600;background:#363a41;padding:7px 14px;border-radius:20px}
 .sociallink:hover{color:#fff;background:var(--mint-d)}
+@media(max-width:860px){.footgrid{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.footgrid{grid-template-columns:1fr}.footgrid>div{min-width:0}}
