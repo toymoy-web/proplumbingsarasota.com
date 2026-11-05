@@ -126,3 +126,6 @@ footer{background:var(--charc);color:#C6CBD1;padding:50px 0 24px}
 .sociallink:hover{color:#fff;background:var(--mint-d)}
 @media(max-width:860px){.footgrid{grid-template-columns:1fr 1fr}}
 @media(max-width:520px){.footgrid{grid-template-columns:1fr}.footgrid>div{min-width:0}}
+.localbox p+p{margin-top:14px}
+@media(max-width:380px){.logo{font-size:19px;gap:8px}.hamburger{padding:4px 4px}}
+@media(max-width:640px){.steps{grid-template-columns:1fr 1fr}}
